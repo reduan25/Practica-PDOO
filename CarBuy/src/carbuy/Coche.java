@@ -28,5 +28,10 @@ public class Coche {
     public Coche(Coche otro){
         this(otro.marca, otro.modelo, otro.year, otro.precio);
     }
+    
+    @Override
+    public String toString() {
+        return "Coche{" + "marca=" + marca + ", modelo=" + modelo + ", year=" + year + ", precio=" + precio + '}';
+    }   
 }
 
