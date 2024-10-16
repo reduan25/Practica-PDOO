@@ -14,7 +14,13 @@ public class CarBuy {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Coche c1 = new Coche();
+        Coche c2 = new Coche("Opel", "Zafira", 2013, 16340.0);
+        Coche c3 = new Coche(c1);
+        
+        System.out.println(c1);
+        System.out.println(c2);
+        System.out.println(c3);
     }
     
 }
