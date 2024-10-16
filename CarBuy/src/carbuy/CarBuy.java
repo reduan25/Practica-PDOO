@@ -21,7 +21,11 @@ public class CarBuy {
         System.out.println(c1);
         System.out.println(c2);
         System.out.println(c3);
-    }
     
-    
+        c2.set_Marca("Ford");
+        c2.set_Modelo("Kuga");
+        c2.set_Year(2022);
+        c2.set_Precio(27500);
+        System.out.println(c2);
+    }    
 }
